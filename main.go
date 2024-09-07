@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"./greeting"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello, Hexlet!")
+	fmt.Println(greeting.Get())
+	fmt.Println(greeting.Hello())
 }
