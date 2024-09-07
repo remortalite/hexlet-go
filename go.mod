@@ -1,4 +1,4 @@
-module github.com/remortalite/hexlet-go
+module github.com/remortalite/hexlet-go/v2
 
 go 1.23.1
 
